@@ -6,10 +6,10 @@ class Nox < Formula
 
   if OS.mac?
     url "https://github.com/procore/nox/releases/download/v0.1.1/nox_0.1.1_64-bit_macOS.tar.gz"
-    sha256 "9077d1b61960cd8772606f32459f14b627a9412ee49600fbaf6107194572bd50"
+    sha256 "261a4f4b9844e2daaa4913279987c21cb21ef96bdcd3675337a6b80e3e35730b"
   elsif OS.linux?
     url "https://github.com/procore/nox/releases/download/v0.1.1/nox_0.1.1_64-bit_linux.tar.gz"
-    sha256 "6d3a4b05374bedf997e97767930dd5f17d1f97d3e8e54bf1d74a852fadf968e6"
+    sha256 "df3b9fe8b818368368a29c1bbf91912aace38ed155f14813bbd4c45e29924f05"
   end
 
   def install
