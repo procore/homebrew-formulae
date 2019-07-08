@@ -2,14 +2,14 @@
 class Nox < Formula
   desc "A grand unified Elasticsearch infrastructure management cli"
   homepage ""
-  version "0.1.1"
+  version "0.1.2"
 
   if OS.mac?
-    url "https://github.com/procore/nox/releases/download/v0.1.1/nox_0.1.1_64-bit_macOS.tar.gz"
-    sha256 "9dc9dfd628ebbaf1a91194c3767723003de5e3d982cb0e8c8ba1a9a1d9c884fa"
+    url "https://github.com/procore/nox/releases/download/v0.1.2/nox_0.1.2_64-bit_macOS.tar.gz"
+    sha256 "a8dec162490fdc241e6ba418b5e13f5b46194c9126aee1922d81cafa143b153f"
   elsif OS.linux?
-    url "https://github.com/procore/nox/releases/download/v0.1.1/nox_0.1.1_64-bit_linux.tar.gz"
-    sha256 "c58c751e709743f07427f9b901d5edbc506716d7c6f52da4c9f75bd8abe52be6"
+    url "https://github.com/procore/nox/releases/download/v0.1.2/nox_0.1.2_64-bit_linux.tar.gz"
+    sha256 "e210caf246ce8588c3197f502fc32a665c3377f5c9d145fae4f8ca7e33d9f98a"
   end
 
   def install
