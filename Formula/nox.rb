@@ -3,7 +3,6 @@ class Nox < Formula
   desc "A grand unified Elasticsearch infrastructure management cli"
   homepage ""
   version "0.1.4"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/procore/nox/releases/download/v0.1.4/nox_0.1.4_64-bit_macOS.tar.gz"
